@@ -21,6 +21,12 @@
   <img alt="Release" src="https://img.shields.io/github/v/release/BeeThor/ClickLockNotifier?include_prereleases">
 </p>
 
+<p align="center">
+  <a href="https://linux.do/">
+    <img alt="LINUX DO" src="https://img.shields.io/badge/LINUX%20DO-Community-2EA44F?style=for-the-badge">
+  </a>
+</p>
+
 ---
 
 ClickLock Notifier is a small Windows tray utility for players who use Windows Mouse ClickLock in games such as Russian Fishing 4.
@@ -122,6 +128,17 @@ Some games or anti-cheat systems may have their own rules about input helpers, e
 ## Third-Party Assets
 
 Sound effects and dependencies are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+## Community Link
+
+<p align="center">
+  <a href="https://linux.do/">
+    <img alt="LINUX DO Community" src="https://img.shields.io/badge/LINUX%20DO-Community%20Link-2EA44F?style=for-the-badge">
+  </a>
+</p>
+
+- **This open-source project links to and recognizes the LINUX DO community:** Yes
+- Community: [https://linux.do/](https://linux.do/)
 
 ## License
 

@@ -21,6 +21,12 @@
   <img alt="Release" src="https://img.shields.io/github/v/release/BeeThor/ClickLockNotifier?include_prereleases">
 </p>
 
+<p align="center">
+  <a href="https://linux.do/">
+    <img alt="LINUX DO" src="https://img.shields.io/badge/LINUX%20DO-Community-2EA44F?style=for-the-badge">
+  </a>
+</p>
+
 ---
 
 ClickLock Notifier 是一个轻量级 Windows 托盘工具，用于给系统“鼠标单击锁定 / Mouse ClickLock”增加清晰的声音提示。
@@ -154,6 +160,17 @@ ClickLockNotifier/
 ## 第三方资源
 
 声音资源和依赖说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+
+## 社区友链
+
+<p align="center">
+  <a href="https://linux.do/">
+    <img alt="LINUX DO Community" src="https://img.shields.io/badge/LINUX%20DO-社区友链-2EA44F?style=for-the-badge">
+  </a>
+</p>
+
+- **我的开源项目已链接认可 LINUX DO 社区：** 是
+- 社区地址：[https://linux.do/](https://linux.do/)
 
 ## 许可证
 
