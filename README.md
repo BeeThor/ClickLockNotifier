@@ -169,7 +169,6 @@ ClickLockNotifier/
   </a>
 </p>
 
-- **我的开源项目已链接认可 LINUX DO 社区：** 是
 - 社区地址：[https://linux.do/](https://linux.do/)
 
 ## 许可证

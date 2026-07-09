@@ -137,7 +137,6 @@ Sound effects and dependencies are listed in [THIRD_PARTY_NOTICES.md](THIRD_PART
   </a>
 </p>
 
-- **This open-source project links to and recognizes the LINUX DO community:** Yes
 - Community: [https://linux.do/](https://linux.do/)
 
 ## License
