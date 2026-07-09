@@ -1,0 +1,14 @@
+bin/
+obj/
+dist/
+release/
+.vs/
+*.user
+*.suo
+*.pdb
+*.log
+*.zip
+*.7z
+*.rar
+clash-verge-rev-dev/
+*.tmp
