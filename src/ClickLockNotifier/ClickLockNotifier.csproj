@@ -11,8 +11,8 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\Sounds\*.wav" />
-    <Content Include="Assets\app.ico" CopyToOutputDirectory="PreserveNewest" />
-    <Content Include="Assets\app-off.ico" CopyToOutputDirectory="PreserveNewest" />
+    <EmbeddedResource Include="Assets\app.ico" LogicalName="ClickLockNotifier.Assets.app.ico" />
+    <EmbeddedResource Include="Assets\app-off.ico" LogicalName="ClickLockNotifier.Assets.app-off.ico" />
     <None Include="Assets\shubiao.svg" />
     <None Include="Assets\shubiao-off.svg" />
   </ItemGroup>

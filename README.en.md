@@ -1,8 +1,37 @@
-# ClickLock Notifier
+<p align="center">
+  <img src="src/ClickLockNotifier/Assets/shubiao.svg" width="96" height="96" alt="ClickLock Notifier logo">
+</p>
+
+<h1 align="center">ClickLock Notifier</h1>
+
+<p align="center">
+  A small Windows tray helper for Mouse ClickLock notifications.
+</p>
+
+<p align="center">
+  <a href="README.md">中文</a>
+  ·
+  <a href="https://github.com/BeeThor/ClickLockNotifier/releases/latest">Latest Release</a>
+</p>
+
+<p align="center">
+  <img alt="Windows" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows&logoColor=white">
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet&logoColor=white">
+  <img alt="License" src="https://img.shields.io/github/license/BeeThor/ClickLockNotifier">
+  <img alt="Release" src="https://img.shields.io/github/v/release/BeeThor/ClickLockNotifier?include_prereleases">
+</p>
+
+---
 
 ClickLock Notifier is a small Windows tray utility for players who use Windows Mouse ClickLock in games such as Russian Fishing 4.
 
 It helps you hear exactly when ClickLock has been engaged, so you do not need to guess whether a long left-button press has turned into a locked hold.
+
+## Who It Is For
+
+- Russian Fishing 4 players.
+- Games or desktop workflows that require a long left-button hold.
+- Users who already use Windows Mouse ClickLock and want an audible confirmation when it engages.
 
 ## What It Does
 
@@ -14,6 +43,7 @@ It helps you hear exactly when ClickLock has been engaged, so you do not need to
 - Can run at Windows startup.
 - Can optionally enable ClickLock only when the foreground window is fullscreen.
 - Uses Raw Input for mouse button detection so game and ClickLock-modified mouse messages are less likely to confuse the notifier.
+- Embeds tray icons into the executable, so runtime icons do not depend on external icon files.
 
 ## What It Does Not Do
 
@@ -47,9 +77,9 @@ Main controls:
 6. In game, hold the left mouse button until you hear the lock sound.
 7. Click once again to release the locked hold.
 
-## Download
+## Quick Download
 
-Download `ClickLockNotifier-win-x64.zip` from GitHub Releases.
+Download `ClickLockNotifier-win-x64.zip` from [GitHub Releases](https://github.com/BeeThor/ClickLockNotifier/releases/latest).
 
 ## Requirements
 

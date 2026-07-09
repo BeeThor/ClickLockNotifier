@@ -1,4 +1,5 @@
 using Microsoft.Win32;
+using System.Reflection;
 
 namespace ClickLockNotifier;
 
@@ -371,8 +372,22 @@ internal sealed class TrayApplicationContext : ApplicationContext
 
     private static Icon LoadTrayIcon(string fileName)
     {
+        var resourceName = $"ClickLockNotifier.Assets.{fileName}";
+        using var resourceStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName);
+        if (resourceStream is not null)
+        {
+            using var icon = new Icon(resourceStream);
+            return (Icon)icon.Clone();
+        }
+
         var iconPath = Path.Combine(AppContext.BaseDirectory, "Assets", fileName);
-        return File.Exists(iconPath) ? new Icon(iconPath) : SystemIcons.Information;
+        if (File.Exists(iconPath))
+        {
+            return new Icon(iconPath);
+        }
+
+        var executableIcon = Icon.ExtractAssociatedIcon(Application.ExecutablePath);
+        return executableIcon is not null ? new Icon(executableIcon, SystemInformation.SmallIconSize) : SystemIcons.Application;
     }
 
     private static bool IsStartupEnabled()
