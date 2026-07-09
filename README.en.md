@@ -27,6 +27,12 @@ ClickLock Notifier is a small Windows tray utility for players who use Windows M
 
 It helps you hear exactly when ClickLock has been engaged, so you do not need to guess whether a long left-button press has turned into a locked hold.
 
+## Preview
+
+<p align="center">
+  <img src="docs/images/tray-menu.png" width="238" alt="ClickLock Notifier tray menu preview">
+</p>
+
 ## Who It Is For
 
 - Russian Fishing 4 players.
